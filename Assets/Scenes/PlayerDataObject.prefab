@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3591690085948237335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3591690085948237330}
+  - component: {fileID: 3591690085948237329}
+  - component: {fileID: 3591690085948237328}
+  - component: {fileID: 9170389141153356845}
+  m_Layer: 0
+  m_Name: PlayerDataObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3591690085948237330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591690085948237335}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 324.96252, y: 8.033549, z: -363.58206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3591690085948237329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591690085948237335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c057fe03c5d00489dd999b42230284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3591690085948237328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591690085948237335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bf71dab3da39e84281bfbd643f586e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDataScript: {fileID: 0}
+  richPresenceAction: 
+  playerFirstName: 
+  playerLastName: 
+  playerNickname: 
+  playerHP: 0
+  playerMP: 0
+  playerMaxHP: 0
+  playerMaxMP: 0
+  playerLevel: 0
+  core: 
+  mod: 
+  currentLocation: {x: 0, y: 0, z: 0}
+  currentRotation: {x: 0, y: 0, z: 0}
+  playerGender: 
+  livingStatus: 
+  baseLevel: 0
+  baseStrengthStat: 0
+  baseMagicStat: 0
+  baseEnduranceStat: 0
+  baseAgilityStat: 0
+  baseLuckStat: 0
+  physWeakRes: 
+  gunWeakRes: 
+  fireWeakRes: 
+  iceWeakRes: 
+  elecWeakRes: 
+  windWeakRes: 
+  psyWeakRes: 
+  nukeWeakRes: 
+  blessWeakRes: 
+  curseWeakRes: 
+  almightyWeakRes: 
+  ailmentWeakRes: 
+--- !u!114 &9170389141153356845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591690085948237335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3a3b05ac901fc478fd0186ddb9541b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: 
+  sceneState: 
+  presenceEnabled: 1
